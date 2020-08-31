@@ -29,6 +29,7 @@ There are 72 unique categorical values in the Weather_Condition column, which we
 
 I used Decision Tree Classifier and Random Forest Classifier as my initial models to calculate the overall accuracy score as well as per-class accuracy scores. After using imblearn's SMOTE technique, the accuracy scores went down expectedly. 
 
+Lastly, I used GridSearchCV to find the most optimal parameters for the Random Forest model, which resulted in a final accuracy score of 0.76.
 
 
 #### Technologies
